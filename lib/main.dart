@@ -34,7 +34,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   List<ChatModel> chatList = []; // Your list of ChatModel objects
-  String apiKey = 'AIzaSyCvZWx3Tiw7IEJ-nHb7YwbPrzq9ZkKx_IQ';
+  String apiKey = '';
 
   @override
   Widget build(BuildContext context) {
